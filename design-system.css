@@ -19,4 +19,29 @@
     color: var(--clr-white);
   }
   
+  .topnav__links {
+    display: none;
+  }
   
+  .topnav__link {
+    color: var(--clr-primary);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav__icon {
+    background: var(--clr-secondary);
+    color:var(--clr-white);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding:10px;
+  }
+  
+  .topnav__link:hover {
+    background-color: var(--clr-white);
+    color: var(--clr-secondary);
+  }  
