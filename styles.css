@@ -18,3 +18,7 @@ html {
     box-sizing: border-box;
   }
   
+  ul, ol {
+    padding: 0;
+  }
+  
