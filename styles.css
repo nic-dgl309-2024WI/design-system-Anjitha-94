@@ -17,11 +17,11 @@
 html {
     box-sizing: border-box;
   }
-  
+  /* Remove padding from lists */
   ul, ol {
     padding: 0;
   }
-  
+   /* Reset margins for various elements */
   body,
   h1, h2, h3, h4, h5, h6,
   p,
