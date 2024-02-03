@@ -1,0 +1,8 @@
+:root {
+    /* Grayscale colors */
+    --clr-primary: black;
+    --clr-secondary: #333; /* Dark grey */
+    --clr-accent: #333; /* Dark grey */
+    --clr-light: #f0f0f0; /* Very light grey */
+    --clr-white: white;
+}
