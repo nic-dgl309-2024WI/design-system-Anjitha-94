@@ -1,0 +1,22 @@
+ /* Style the navigation menu for mobile */
+ .topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  .topnav--white {
+    background-color: var(--clr-white);
+  }
+  .topnav__logo {
+    color: var(--clr-primary);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav__logo--active {
+    background-color: var(--clr-secondary);
+    color: var(--clr-white);
+  }
+  
+  
