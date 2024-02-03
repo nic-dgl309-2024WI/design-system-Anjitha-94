@@ -5,4 +5,12 @@
     --clr-accent: #333; /* Dark grey */
     --clr-light: #f0f0f0; /* Very light grey */
     --clr-white: white;
+
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
