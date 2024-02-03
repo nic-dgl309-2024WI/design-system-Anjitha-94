@@ -13,16 +13,19 @@
 
     <!-- Top Navigation Menu -->
     <!--The code taken from w3 schools:https://www.w3schools.com/howto/howto_js_mobile_navbar.asp make the class names according to BEM --> 
-    <div class="topnav">
-        <a href="#home" class="active">Logo</a>
+    <div class="topnav topnav--white">
+        <div class="topnav__logo-container">
+          <a href="#home" class="topnav__logo topnav__logo--active">Logo</a>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="topnav__icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         <!-- Navigation links (hidden by default) -->
-        <div id="myLinks">
-          <a href="index.html">Home</a>
-          <a href="about-me.html">About Me</a>
-          <a href="#">Demo Site</a>
+        <div class="topnav__links" id="myLinks">
+          <a href="index.html" class="topnav__link">Home</a>
+          <a href="about-me.html" class="topnav__link">About me</a>
+          <a href="#" class="topnav__link">Demo site</a>
         </div>
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
       </div>
+      </div>
+      <!--till here but I changed the class names according to BEM-->
