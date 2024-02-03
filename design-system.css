@@ -59,3 +59,11 @@
     margin: 0;
     padding: 0;
   }
+  .sidebar-nav__link {
+    text-decoration: none;
+    color: var(--clr-primary);
+    display: block;
+    padding: 10px;
+  }
+  
+ 
