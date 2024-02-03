@@ -91,6 +91,23 @@
         background-color: var(--clr-secondary);
         color: var(--clr-primary);
       }
+      .topnav__links {
+        display: flex;
+        align-items: center;
+      }
     
+      .topnav__link {
+        color: var(--clr-white);
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .topnav__link:hover{
+        background-color: transparent;
+        color: var(--clr-primary);
+      }
+      .topnav__icon {
+        display: none; /* Hide the hamburger icon on larger screens */
+      }
       
 }
