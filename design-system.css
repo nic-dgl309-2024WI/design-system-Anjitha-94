@@ -71,5 +71,10 @@
   }
   /* Media query for larger screens (min-width: 769px) */
   @media screen and (min-width: 769px) {
-  
+    .topnav {
+        background-color: var(--clr-secondary); /* Dark shade for the navigation bar */
+      }
+      
+
+      
 }
