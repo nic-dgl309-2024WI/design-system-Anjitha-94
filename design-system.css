@@ -49,3 +49,13 @@
 .sidebar {
     width: 200px;
   }
+  .sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-nav__heading {
+    margin: 0;
+    padding: 0;
+  }
