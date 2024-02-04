@@ -5,8 +5,32 @@
     --clr-accent: #333; /* Dark grey */
     --clr-light: #f0f0f0; /* Very light grey */
     --clr-white: white;
+  
+
+  /* Primary Colors */
+  --clr-primary-100: #388E3C; /* Base color */
+  --clr-primary-light: #74c278; /* Light tone */
+  --clr-primary-dark: #1B5E20; /* Dark tone */
+
+  /* Secondary Colors */
+  --clr-secondary-bg: #FFECB3; /* Secondary background color */
+  --clr-secondary-text: #975c5c; /* Secondary text color */
+
+  /* Accent Colors */
+  --clr-accent-100: #FF9800; 
+  --clr-accent-200: #FF4081;
+  --clr-accent-300: #9C27B0;
+  --clr-accent-400: #FFEB3B;
+
+  /* Neutrals */
+  --clr-white: #FFFFFF;
+  --clr-gray-light: #F5F5F5;
+  --clr-gray: #9E9E9E;
+  --clr-gray-dark: #424242;
 
 }
+
+
 *,
 *::before,
 *::after {
