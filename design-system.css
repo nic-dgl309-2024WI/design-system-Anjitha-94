@@ -43,7 +43,7 @@
   
   .topnav__link:hover {
     background-color: var(--clr-white);
-    color: var(--clr-secondary);
+    color: var(--clr-light);
   }  
   /* Style the sidebar */
 .sidebar {
@@ -67,7 +67,7 @@
   }
   
   .sidebar-nav__link:hover {
-    color: var(--clr-secondary);
+    color: var(--clr-light);
   }
   /* Media query for larger screens (min-width: 769px) */
   @media screen and (min-width: 769px) {
