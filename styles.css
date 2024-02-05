@@ -85,7 +85,28 @@
 .swatch-text {
   font-size: 14px;
 }
+body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
 
+.swatch {
+  width: 200px;
+  height: 100px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  color: var(--clr-white);
+}
+
+.color-box {
+  flex: 1;
+  border-radius: 8px;
+}
 *,
 *::before,
 *::after {
