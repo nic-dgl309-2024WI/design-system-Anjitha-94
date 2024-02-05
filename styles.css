@@ -72,12 +72,12 @@
 .swatch-text {
   font-size: 14px;
 }
-body {
+/*body {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
-}
+}*/
 
 .swatch {
   width: 200px;
