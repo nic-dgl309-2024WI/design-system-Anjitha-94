@@ -116,7 +116,11 @@
     height:100px;
     background-color: var(--clr-secondary-text);
   }
-
+  .color-box6{
+    width:200px;
+    height:100px;
+    background-color: var(--clr-accent-100);
+  }
 
   /* Media query for larger screens (min-width: 769px) */
   @media screen and (min-width: 769px) {
