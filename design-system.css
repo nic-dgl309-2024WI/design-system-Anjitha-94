@@ -111,6 +111,11 @@
     height:100px;
     background-color: var(--clr-secondary-bg);
   }
+  .color-box5{
+    width:200px;
+    height:100px;
+    background-color: var(--clr-secondary-text);
+  }
 
 
   /* Media query for larger screens (min-width: 769px) */
