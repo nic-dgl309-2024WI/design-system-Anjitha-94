@@ -8,16 +8,16 @@
   
 
   /* Primary Colors */
-  --clr-primary-100: #388E3C; /* Base color */
-  --clr-primary-light: #74c278; /* Light tone */
-  --clr-primary-dark: #1B5E20; /* Dark tone */
+  --clr-primary-100: #ab711a; /* Base color */
+  --clr-primary-light: #dccb9c; /* Light tone */
+  --clr-primary-dark: #5e541b; /* Dark tone */
 
   /* Secondary Colors */
-  --clr-secondary-bg: #d4ffb3; /* Secondary background color */
+  --clr-secondary-bg: #fff7b3; /* Secondary background color */
   --clr-secondary-text: #061b01b6; /* Secondary text color */
 
   /* Accent Colors */
-  --clr-accent-100: #FF9800; 
+  --clr-accent-100: #ff0077; 
 
 
   /* Neutrals */
