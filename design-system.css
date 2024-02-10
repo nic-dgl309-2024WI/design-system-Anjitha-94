@@ -48,6 +48,7 @@
   /* Style the sidebar */
 .sidebar {
     width: 200px;
+    position: absolute;
   }
   .sidebar-nav {
     list-style: none;
@@ -69,20 +70,23 @@
   .sidebar-nav__link:hover {
     color: var(--clr-light);
   }
-  .container {
-    display: flex;
-  }
-  .color-swatches {
-    display: flex;
-    flex-direction: column;
-    margin-left: 240px; /* Adjust margin to match the width of the sidebar */
-  }
+
   u-colorswatch{
     display:flex;
     width:200px;
     height:100px;
     margin-left: 20px;
     color:var(--clr-primary)
+  }
+  .container {
+   display: flex;
+   margin-left: 200px;
+  }
+
+  .color-swatches {
+    display: flex;
+    flex-direction: column;
+    margin-left: 240px; /* Adjust margin to match the width of the sidebar */
   }
 
   .swatch-text {
@@ -121,6 +125,11 @@
     height:100px;
     background-color: var(--clr-accent-100);
   }
+
+  /* U
+  /* Utility Classes */
+
+
 
   /* Media query for larger screens (min-width: 769px) */
   @media screen and (min-width: 769px) {
