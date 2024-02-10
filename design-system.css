@@ -71,7 +71,7 @@
     color: var(--clr-light);
   }
 
-  u-colorswatch{
+  .u-colorswatch{
     display:flex;
     width:200px;
     height:100px;
@@ -147,7 +147,7 @@
 
 
   /* Utility Classes */
-  u-heading {
+  .u-heading {
     font-family: var(--heading-font-family);
     font-size: var(--heading-font-size);
     font-weight: var(--heading-font-weight);
@@ -156,7 +156,7 @@
     color: var(--clr-secondary-text);
   }
   
-  u-heading-2 {
+  .u-heading-2 {
     font-family: var(--body-font-family);
     font-size: 1.5rem;   
     font-weight: var(--body-font-size);
