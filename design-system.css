@@ -81,7 +81,7 @@
   .container {
    display: flex;
    margin-left: 200px;
-  }
+    }
 
   .color-swatches {
     display: flex;
@@ -140,6 +140,9 @@
     flex-direction: column;
     flex:1;
   }
+  .fonts{
+    padding: 10px;
+  }
 
 
 
@@ -184,19 +187,13 @@
   .u-font-weight-400 {
     font-weight: normal;
   }
-  
+  .u-font-weight-100{
+    font-weight: lighter;
+  }
   .u-letter-spacing-2 {
     letter-spacing: 0.2em;
   }
   
-  .u-text-accent {
-    color: var(--accent-color);
-  }
-  
-  .u-text-primary {
-    color: var(--body-color);
-  }
-
   /* Media query for larger screens (min-width: 769px) */
   @media screen and (min-width: 769px) {
     .topnav {
