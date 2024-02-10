@@ -25,6 +25,19 @@
   --clr-gray-light: #e2efdb;
   --clr-gray: #868f84;
   --clr-gray-dark: #40493e;
+
+    /*font variables*/
+    --heading-font-family: 'Montserrat', sans-serif;
+    --body-font-family: 'Roboto', sans-serif;
+  
+    --heading-font-size: 2.5rem;
+    --body-font-size: 1rem;
+  
+    --heading-font-weight: bold;
+    --body-font-weight: normal;
+  
+    --line-height: 1.6;
+    --letter-spacing: 0.02em;
 }
 
 *,
