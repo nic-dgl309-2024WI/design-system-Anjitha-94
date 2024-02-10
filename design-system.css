@@ -125,6 +125,22 @@
     height:100px;
     background-color: var(--clr-accent-100);
   }
+  /*Typography*/
+  .font-uses {
+    display: flex;
+    justify-content: space-between;
+  }
+  .font-uses {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+  }
+
 
 
   /* Utility Classes */
