@@ -71,14 +71,17 @@
     color: var(--clr-light);
   }
 
-  .u-colorswatch{
+  u-colorswatch{
     display:flex;
     width:200px;
     height:100px;
     margin-left: 20px;
     color:var(--clr-primary)
   }
-  .container {
+  .container{
+    display:flex;
+  }
+  .container-1{
    display: flex;
    margin-left: 200px;
     }
@@ -132,6 +135,7 @@
   }
   .font-uses {
     display: flex;
+    flex-direction: column; 
     justify-content: space-between;
   }
 
@@ -193,7 +197,9 @@
   .u-letter-spacing-2 {
     letter-spacing: 0.2em;
   }
-  
+  .u-text-accent{
+    color:var(--clr-accent-100);
+  }
   /* Media query for larger screens (min-width: 769px) */
   @media screen and (min-width: 769px) {
     .topnav {
@@ -234,5 +240,14 @@
       .topnav__icon {
         display: none; /* Hide the hamburger icon on larger screens */
       }
+      .sidebar {
+        display: block;
+    }
+    .container-1 {
+      margin-left: 200px;
+  }
+  .font-uses {
+    flex-direction: row; /* Change to two-column layout for larger screens */
+}
       
 }
