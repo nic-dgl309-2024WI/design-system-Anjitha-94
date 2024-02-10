@@ -145,7 +145,41 @@
     letter-spacing: var(--letter-spacing);
     color: var(--clr-secondary-text);
   }
-
+  .u-font-serif {
+    font-family: var(--heading-font-family);
+  }
+  
+  .u-font-sans {
+    font-family: var(--body-font-family);
+  }
+  
+  .u-font-size-800 {
+    font-size: 2rem;
+  }
+  
+  .u-font-size-400 {
+    font-size: var(--body-font-size);
+  }
+  
+  .u-font-weight-700 {
+    font-weight: bold;
+  }
+  
+  .u-font-weight-400 {
+    font-weight: normal;
+  }
+  
+  .u-letter-spacing-2 {
+    letter-spacing: 0.2em;
+  }
+  
+  .u-text-accent {
+    color: var(--accent-color);
+  }
+  
+  .u-text-primary {
+    color: var(--body-color);
+  }
 
   /* Media query for larger screens (min-width: 769px) */
   @media screen and (min-width: 769px) {
