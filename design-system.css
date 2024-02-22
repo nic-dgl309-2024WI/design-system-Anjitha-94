@@ -90,13 +90,12 @@
     /* Add any additional styles for the active link */
   }
 
-  u-colorswatch{
+  .colorswatch{
     display:flex;
     width:200px;
     height:100px;
     margin-left: 20px;
-    color:var(--clr-primary)
-  }
+   }
   .container{
     display:flex;
   }
@@ -120,17 +119,17 @@
   .color-box1{
     width:200px;
     height:100px;
-    background-color: var(--clr-primary-100);
+    background-color: var(--clr-primary-bg-001);
   }
   .color-box2{
     width:200px;
     height:100px;
-    background-color: var(--clr-primary-light);
+    background-color: var(--clr-primary-text-001);
   }
   .color-box3{
     width:200px;
     height:100px;
-    background-color: var(--clr-primary-dark);
+    background-color: var(--clr-primary-text-002);
   }
   .color-box4{
     width:200px;
@@ -169,56 +168,7 @@
 
 
 
-  /* Utility Classes */
-  .u-heading {
-    font-family: var(--heading-font-family);
-    font-size: var(--heading-font-size);
-    font-weight: var(--heading-font-weight);
-    line-height: var(--line-height);
-    letter-spacing: var(--letter-spacing);
-    color: var(--clr-secondary-text);
-  }
-  
-  .u-heading-2 {
-    font-family: var(--body-font-family);
-    font-size: 1.5rem;   
-    font-weight: var(--body-font-size);
-    line-height: var(--line-height);
-    letter-spacing: var(--letter-spacing);
-    color: var(--clr-secondary-text);
-  }
-  .u-font-serif {
-    font-family: var(--heading-font-family);
-  }
-  
-  .u-font-sans {
-    font-family: var(--body-font-family);
-  }
-  
-  .u-font-size-800 {
-    font-size: 2rem;
-  }
-  
-  .u-font-size-400 {
-    font-size: var(--body-font-size);
-  }
-  
-  .u-font-weight-700 {
-    font-weight: bold;
-  }
-  
-  .u-font-weight-400 {
-    font-weight: normal;
-  }
-  .u-font-weight-100{
-    font-weight: lighter;
-  }
-  .u-letter-spacing-2 {
-    letter-spacing: 0.2em;
-  }
-  .u-text-accent{
-    color:var(--clr-accent-100);
-  }
+ 
   /* Media query for larger screens (min-width: 769px) */
   @media screen and (min-width: 769px) {
     .topnav {
