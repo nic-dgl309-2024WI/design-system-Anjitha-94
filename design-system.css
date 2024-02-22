@@ -40,11 +40,18 @@
     top: 0;
     padding:10px;
   }
+
+
   
   .topnav__link:hover {
     background-color: var(--clr-white);
-    color: var(--clr-light);
+    color: #819404
   }  
+
+  .topnav__link.active{
+  color: #ff0000; /* Change this to your desired color */
+  /* Add any additional styles for the active link */
+}
   /* Style the sidebar */
 .sidebar {
     width: 200px;
@@ -65,10 +72,22 @@
     color: var(--clr-primary);
     display: block;
     padding: 10px;
+    background-color: transparent;
   }
-  
+  .topnav__link,
+  .sidebar-nav__link {
+    color: var(--clr-primary);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: transparent; /* Add this to ensure the background is transparent */
+  }
   .sidebar-nav__link:hover {
     color: var(--clr-light);
+  }
+  .sidebar-nav__link.active {
+    color: #ff0000; /* Change this to your desired color */
+    /* Add any additional styles for the active link */
   }
 
   u-colorswatch{
@@ -240,8 +259,22 @@
       .topnav__icon {
         display: none; /* Hide the hamburger icon on larger screens */
       }
+      .sidebar-nav__link {
+        color: var(--clr-primary);
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        background-color: transparent; /* Add this to ensure the background is transparent */
+      }
       .sidebar {
         display: block;
+    }
+    .sidebar-nav__link:hover {
+      color: var(--clr-light);
+    }
+    .sidebar-nav__link.active {
+      color: #ff0000; /* Change this to your desired color */
+      /* Add any additional styles for the active link */
     }
     .container-1 {
       margin-left: 200px;
