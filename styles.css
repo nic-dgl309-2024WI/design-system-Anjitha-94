@@ -20,9 +20,11 @@
 
   /* Accent Colors */
   --clr-accent: #e44b09d7; 
+  --clr-accent-100:#ff0000;
 
 
-  /* Neutrals */
+
+  /* Neutrals */ 
   --clr-gray-light: #e2efdb;
   --clr-gray: #868f84;
   --clr-gray-dark: #47463d;
@@ -74,6 +76,12 @@
  }
  .u-color-white{
   background-color: var(--clr-white);
+   }
+   .u-color-red{
+    background-color: var(--clr-accent-100);
+   }
+   .u-color-grey-light{
+    background-color: var(--clr-gray-light);
    }
 
 .u-font-serif {
