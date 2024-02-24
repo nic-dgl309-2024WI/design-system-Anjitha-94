@@ -10,7 +10,7 @@
   --clr-primary-bg-001: #F4D2E9; /* Base color1 */
   --clr-primary-text-001: #0A4C2E; /*text color*/
   --clr-primary-text-002: #104041;/*text color*/
-  --clr-primary-bg-002:#E299FF;/* Base color2*/
+  --clr-primary-bg-002:#FFADAD;/* Base color2*/
   --clr-primary-bg-003:#B3E5CE;/* Base color3*/
 
   /* Secondary Colors */
@@ -72,9 +72,9 @@
  .u-color-light{
   background-color: var(--clr-light);
  }
- .u-color-dark{
-  background-color: var(--clr-dark);
- }
+ .u-color-white{
+  background-color: var(--clr-white);
+   }
  .u-heading {
   font-family: var(--heading-font-family);
   font-size: var(--heading-font-size);
