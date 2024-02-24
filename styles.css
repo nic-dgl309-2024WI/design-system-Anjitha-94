@@ -1,7 +1,7 @@
 :root {
     /* Grayscale colors */
-    --clr-primary: black;
-    --clr-secondary: #333; /* Dark grey */
+    --clr-primary:#000;
+    --clr-secondary: #453f3f; /* Dark grey */
     --clr-light: #f0f0f0; /* Very light grey */
     --clr-white: white;
   
@@ -75,23 +75,7 @@
  .u-color-white{
   background-color: var(--clr-white);
    }
- .u-heading {
-  font-family: var(--heading-font-family);
-  font-size: var(--heading-font-size);
-  font-weight: var(--heading-font-weight);
-  line-height: var(--line-height);
-  letter-spacing: var(--letter-spacing);
-  color: var(--clr-secondary-text);
-}
 
-.u-heading-2 {
-  font-family: var(--body-font-family);
-  font-size: 1.5rem;   
-  font-weight: var(--body-font-size);
-  line-height: var(--line-height);
-  letter-spacing: var(--letter-spacing);
-  color: var(--clr-secondary-text);
-}
 .u-font-serif {
   font-family: var(--heading-font-family);
 }
