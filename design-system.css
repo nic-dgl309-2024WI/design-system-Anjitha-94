@@ -116,36 +116,11 @@
     padding: 0;
     margin: 0;
   }
-  .color-box1{
+  .color-box{
     width:200px;
     height:100px;
-    background-color: var(--clr-primary-bg-001);
-  }
-  .color-box2{
-    width:200px;
-    height:100px;
-    background-color: var(--clr-primary-text-001);
-  }
-  .color-box3{
-    width:200px;
-    height:100px;
-    background-color: var(--clr-primary-text-002);
-  }
-  .color-box4{
-    width:200px;
-    height:100px;
-    background-color: var(--clr-secondary-bg);
-  }
-  .color-box5{
-    width:200px;
-    height:100px;
-    background-color: var(--clr-secondary-text);
-  }
-  .color-box6{
-    width:200px;
-    height:100px;
-    background-color: var(--clr-accent-100);
-  }
+     }
+
   /*Typography*/
   .font-uses {
     display: flex;
