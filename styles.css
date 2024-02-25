@@ -127,11 +127,11 @@
 
 /*font families*/
 
-.u-font-serif {
+.u-font-merriweather {
   font-family: var(--heading-font-family);
 }
 
-.u-font-sans {
+.u-font-lora {
   font-family: var(--body-font-family);
 }
 
