@@ -43,7 +43,7 @@
     --letter-spacing: 0.02em;
 }
 
- /* Utility Classes */
+ /* Utility Classes background colors*/
  .u-color-primary-bg1{
   background-color: var(--clr-primary-bg-001);
  }
@@ -83,6 +83,50 @@
    .u-color-grey-light{
     background-color: var(--clr-gray-light);
    }
+   /*Utility class text colors*/
+
+   .u-color-primary-text-001{
+    color:  var(--clr-primary-bg-001);
+   }
+
+   .u-color-primary-text-002{
+    color: var(--clr-primary-text-001);
+   }
+   .u-color-primary-text-003{
+    color: var(--clr-primary-text-002);
+   }
+   .u-color-primary-text-004{
+    color: var(--clr-primary-bg-002);
+   }
+   .u-color-primary-text-005{
+    color: var(--clr-primary-bg-003);
+   }
+   .u-color-secondary-text-006{
+   color: var(--clr-secondary-bg);
+   }
+   .u-color-secondary-text-007{
+    color: var(--clr-secondary-text);
+   }
+   .u-color-primary-text-008{
+    color: var(--clr-primary);
+   }
+   .u-color-secondary-text-009{
+   color: var(--clr-secondary);
+   }
+   .u-color-light-text-010{
+    color: var(--clr-light);
+   }
+   .u-color-white-text-011{
+    color: var(--clr-white);
+     }
+     .u-color-red-text-012{
+      color: var(--clr-accent-100);
+     }
+     .u-color-grey-light-text-013{
+      color: var(--clr-gray-light);
+     }
+
+
 
 .u-font-serif {
   font-family: var(--heading-font-family);
