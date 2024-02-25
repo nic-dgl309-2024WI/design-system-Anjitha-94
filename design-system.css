@@ -136,7 +136,7 @@
   .u-heading-2 {
     font-family: var(--body-font-family);
     font-size: 1.5rem;   
-    font-weight: var(--body-font-size);
+    font-weight: var(--body-font-weight);
     line-height: var(--line-height);
     letter-spacing: var(--letter-spacing);
     color: var(--clr-secondary-text);
@@ -160,9 +160,6 @@
     padding: 10px;
   }
 
-
-
- 
   /* Media query for larger screens (min-width: 769px) */
   @media screen and (min-width: 769px) {
     .topnav {
