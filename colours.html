@@ -16,8 +16,8 @@
 
     <!-- Top Navigation Menu -->
     <!--The code taken from w3 schools:https://www.w3schools.com/howto/howto_js_mobile_navbar.asp make the class names according to BEM --> 
-    <div class="topnav topnav--white bg-primary">
-        <div class="topnav__logo-container bg-primary">
+    <div class="topnav u-color-white u-color-secondary-bg">
+      <div class="topnav__logo-container u-color-secondary-bg">
           <a href="index.html" id="designSystemLink" class="topnav__logo topnav__logo--active topnav__link">Design System</a>
           <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
           <a href="javascript:void(0);" class="topnav__icon" onclick="myFunction()">
@@ -27,14 +27,41 @@
         <div class="topnav__links" id="myLinks">
           <a href="about-me.html" class="topnav__link">About me</a>
           <a href="#" class="topnav__link">Demo site</a>
+          <div class="sidebar_mobile u-color-secondary-bg">
+            <ul class="sidebar-nav">
+              <p class="sidebar-nav__heading">Your Brand</p>
+              <li><a href="colours.html" id="colorsLink" class="sidebar-nav__link topnav__link">01. Colors</a></li>
+              <li><a href="typography.html" id="typographyLink" class="sidebar-nav__link topnav__link">02. Typography</a></li>
+              <li><a href="#" class="sidebar-nav__link">03. Logo</a></li>
+              <p class="sidebar-nav__heading">Utilities</p>
+              <li><a href="#" class="sidebar-nav__link">04. Spacing</a></li>
+              <li><a href="#" class="sidebar-nav__link">05. Containers</a></li>
+              <li><a href="#" class="sidebar-nav__link">06. Images</a></li>
+              <li><a href="#" class="sidebar-nav__link">07. Interactive</a></li>
+              <li><a href="#" class="sidebar-nav__link">08. Feedback</a></li>
+              <p class="sidebar-nav__heading">Navigation</p>
+              <li><a href="#" class="sidebar-nav__link">09. Navbars</a></li>
+              <li><a href="#" class="sidebar-nav__link">10. Breadcrumbs</a></li>
+              <li><a href="#" class="sidebar-nav__link">11. Pagination</a></li>
+              <p class="sidebar-nav__heading">Blocks</p>
+              <li><a href="#" class="sidebar-nav__link">12. Hero</a></li>
+              <li><a href="#" class="sidebar-nav__link">13. Carousel</a></li>
+              <li><a href="#" class="sidebar-nav__link">14. Slats</a></li>
+              <li><a href="#" class="sidebar-nav__link">15. Footer</a></li>
+              <p class="sidebar-nav__heading">Components</p>
+              <li><a href="#" class="sidebar-nav__link">16. Cards</a></li>
+              <li><a href="#" class="sidebar-nav__link">17. Forms</a></li>
+              <li><a href="#" class="sidebar-nav__link">18. Accordion</a></li>
+              <li><a href="#" class="sidebar-nav__link">19. Lists</a></li>
+            </ul>
+          </div>
         </div>
       </div>
       </div>
       <!--till here but I changed the class names according to BEM-->
       <!-- Sidebar -->
-      <div class="main"></div>
-      
-    <div class="sidebar">
+     
+    <div class="sidebar u-color-secondary-bg">
         <ul class="sidebar-nav">
           <p class="sidebar-nav__heading">Your Brand</p>
           <li><a href="colours.html" id="colorsLink" class="sidebar-nav__link topnav__link">01. Colors</a></li>
