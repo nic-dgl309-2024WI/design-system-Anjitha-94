@@ -8,7 +8,7 @@
 
   /* Primary Colors */
   --clr-primary-bg-001: #F4D2E9; /* Base color1 */
-  --clr-primary-text-001: #0A4C2E; /*text color*/
+  --clr-primary-text-001: #0a4c2e; /*text color*/
   --clr-primary-text-002: #104041;/*text color*/
   --clr-primary-bg-002:#FFADAD;/* Base color2*/
   --clr-primary-bg-003:#B3E5CE;/* Base color3*/
@@ -30,14 +30,13 @@
   --clr-gray-dark: #47463d;
 
     /*font variables*/
-    --heading-font-family: 'Montserrat', sans-serif;
-    --body-font-family: 'Roboto', sans-serif;
-  
-    --heading-font-size: 2.5rem;
-    --body-font-size: 1rem;
-  
-    --heading-font-weight: bold;
-    --body-font-weight: normal;
+    --heading-font-family: 'Merriweather', sans-serif;
+    --body-font-family: 'Lora', sans-serif;
+
+    --heading-font-size:2.5rem;
+    --heading-font-weight:bold;
+
+    --body-font-weight:normal;
   
     --line-height: 1.6;
     --letter-spacing: 0.02em;
@@ -77,56 +76,56 @@
  .u-color-white{
   background-color: var(--clr-white);
    }
-   .u-color-red{
+.u-color-red{
     background-color: var(--clr-accent-100);
    }
-   .u-color-grey-light{
+.u-color-grey-light{
     background-color: var(--clr-gray-light);
    }
    /*Utility class text colors*/
 
-   .u-color-primary-text001{
+.u-color-primary-text001{
     color:  var(--clr-primary-bg-001);
    }
 
-   .u-color-primary-text002{
+.u-color-primary-text002{
     color: var(--clr-primary-text-001);
    }
-   .u-color-primary-text003{
+.u-color-primary-text003{
     color: var(--clr-primary-text-002);
    }
-   .u-color-primary-text004{
+.u-color-primary-text004{
     color: var(--clr-primary-bg-002);
    }
-   .u-color-primary-text005{
+.u-color-primary-text005{
     color: var(--clr-primary-bg-003);
    }
-   .u-color-secondary-text006{
+.u-color-secondary-text006{
    color: var(--clr-secondary-bg);
    }
-   .u-color-secondary-text007{
+.u-color-secondary-text007{
     color: var(--clr-secondarytext);
    }
-   .u-color-primary-text008{
+.u-color-primary-text008{
     color: var(--clr-primary);
    }
-   .u-color-secondary-text009{
+.u-color-secondary-text009{
    color: var(--clr-secondary);
    }
-   .u-color-light-text010{
+.u-color-light-text010{
     color: var(--clr-light);
    }
-   .u-color-white-text011{
+.u-color-white-text011{
     color: var(--clr-white);
      }
-     .u-color-red-text012{
+.u-color-red-text012{
       color: var(--clr-accent-100);
      }
-     .u-color-grey-light-text013{
+.u-color-grey-light-text013{
       color: var(--clr-gray-light);
      }
 
-
+/*font families*/
 
 .u-font-serif {
   font-family: var(--heading-font-family);
@@ -137,11 +136,22 @@
 }
 
 .u-font-size-800 {
+  font-size: 2.5rem;
+}
+
+.u-font-size-700 {
   font-size: 2rem;
 }
 
+.u-font-size-600 {
+  font-size: 1.5rem;
+}
+
+.u-font-size-500 {
+  font-size: 1.25rem;
+}
 .u-font-size-400 {
-  font-size: var(--body-font-size);
+  font-size: 1rem;
 }
 
 .u-font-weight-700 {
