@@ -16,24 +16,52 @@
 
     <!-- Top Navigation Menu -->
     <!--The code taken from w3 schools:https://www.w3schools.com/howto/howto_js_mobile_navbar.asp make the class names according to BEM --> 
-    <div class="topnav topnav--white">
-        <div class="topnav__logo-container">
+    <div class="topnav u-color-white u-color-secondary-bg">
+      <div class="topnav__logo-container u-color-secondary-bg">
           <a href="index.html" id="designSystemLink" class="topnav__logo topnav__logo--active topnav__link">Design System</a>
           <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
           <a href="javascript:void(0);" class="topnav__icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
+    
         <!-- Navigation links (hidden by default) -->
         <div class="topnav__links" id="myLinks">
           <a href="about-me.html" class="topnav__link">About me</a>
           <a href="#" class="topnav__link">Demo site</a>
+          <div class="sidebar_mobile u-color-secondary-bg">
+            <ul class="sidebar-nav">
+              <p class="sidebar-nav__heading">Your Brand</p>
+              <li><a href="colours.html" id="colorsLink" class="sidebar-nav__link topnav__link">01. Colors</a></li>
+              <li><a href="typography.html" id="typographyLink" class="sidebar-nav__link topnav__link">02. Typography</a></li>
+              <li><a href="#" class="sidebar-nav__link">03. Logo</a></li>
+              <p class="sidebar-nav__heading">Utilities</p>
+              <li><a href="#" class="sidebar-nav__link">04. Spacing</a></li>
+              <li><a href="#" class="sidebar-nav__link">05. Containers</a></li>
+              <li><a href="#" class="sidebar-nav__link">06. Images</a></li>
+              <li><a href="#" class="sidebar-nav__link">07. Interactive</a></li>
+              <li><a href="#" class="sidebar-nav__link">08. Feedback</a></li>
+              <p class="sidebar-nav__heading">Navigation</p>
+              <li><a href="#" class="sidebar-nav__link">09. Navbars</a></li>
+              <li><a href="#" class="sidebar-nav__link">10. Breadcrumbs</a></li>
+              <li><a href="#" class="sidebar-nav__link">11. Pagination</a></li>
+              <p class="sidebar-nav__heading">Blocks</p>
+              <li><a href="#" class="sidebar-nav__link">12. Hero</a></li>
+              <li><a href="#" class="sidebar-nav__link">13. Carousel</a></li>
+              <li><a href="#" class="sidebar-nav__link">14. Slats</a></li>
+              <li><a href="#" class="sidebar-nav__link">15. Footer</a></li>
+              <p class="sidebar-nav__heading">Components</p>
+              <li><a href="#" class="sidebar-nav__link">16. Cards</a></li>
+              <li><a href="#" class="sidebar-nav__link">17. Forms</a></li>
+              <li><a href="#" class="sidebar-nav__link">18. Accordion</a></li>
+              <li><a href="#" class="sidebar-nav__link">19. Lists</a></li>
+            </ul>
+          </div>
         </div>
       </div>
       </div>
       <!--till here but I changed the class names according to BEM-->
       <!-- Sidebar -->
-     <div class="main">
-      <div class="sidebar">
+       <div class="sidebar u-color-secondary-bg">
         <ul class="sidebar-nav">
           <li><a href="colours.html" id="colorsLink" class="sidebar-nav__link topnav__link">01. Colors</a></li>
           <li><a href="typography.html" id="typographyLink" class="sidebar-nav__link topnav__link">02. Typography</a></li>
@@ -60,9 +88,10 @@
           <li><a href="#" class="sidebar-nav__link">19. Lists</a></li>
         </ul>
       </div>
-      <div class="container-1">
-         <section class="font-uses">
-           <div class="font-use">
+      <!--Fonts section-->
+      <!--heading font-->
+   
+           
             <h1 class="u-heading">Heading</h1>
              <h2 class="u-heading">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</h2>
              <h2 class="u-heading">a b c d e f g h i j k l m n o p q r s t u v w x y z</h2>
@@ -72,21 +101,46 @@
              <p class="u-font-serif u-font-size-800 u-font-weight-700 u-letter-spacing-2 u-text-accent">
                This is an example of a heading using the Merriweather font.
              </p>
-           </div>
-       
-           <div class="font-use">
+          
+       <!--body font-->
+           
              <h2 class="u-heading-2">Body Text Font</h2>
              <h2 class="u-heading-2">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</h2>
              <h2 class="u-heading-2">a b c d e f g h i j k l m n o p q r s t u v w x y z</h2>
              <h2 class="u-heading-2">0 1 2 3 4 5 6 7 8 9 </h2>
-             <h2 class="u-heading">This font is used for body text and for any contents</h2>
+             <h2 class="u-heading-2">This font is used for body text and for any contents</h2>
              <p class="u-font-sans u-font-size-400 u-font-weight-400 u-text-accent">
                This is an example of body text using the Lora font.
              </p>
-           </div>
-         </section>
-       </div>
-    </div>
+         
+
+          
+            <h2 class="u-heading">Utility classes</h2>
+            <!--Merriweather-->
+            <p class="u-font-merriweather ">u-font-merriweather</p>
+            <p class="u-font-merriweather u-font-size-800 ">u-font-size-800 </p>
+            <p class=" u-font-merriweather u-font-size-700">u-font-size-700</p>
+            <p class="u-font-merriweather u-font-size-600">u-font-size-600</p>
+            <p class="u-font-merriweather u-font-size-500">u-font-size-500</p>
+            <p class="u-font-merriweather u-font-size-400">u-font-size-400</p>
+            <p class="u-font-merriweather u-font-weight-700">u-font-weight-700</p>
+            <p class="u-font-merriweather u-font-weight-400">u-font-weight-400</p>
+            <p class="u-font-merriweather u-font-weight-100">u-font-weight-100</p>
+
+             <!--Lora-->
+
+            <p class="u-font-lora ">u-font-lora</p>
+            <p class="u-font-lora u-font-size-800 ">u-font-size-800 </p>
+            <p class="u-font-lora u-font-size-700">u-font-size-700</p>
+            <p class="u-font-lora u-font-size-600">u-font-size-600</p>
+            <p class="u-font-lora u-font-size-500">u-font-size-500</p>
+            <p class="u-font-lora u-font-size-400">u-font-size-400</p>
+            <p class="u-font-lora u-font-weight-700">u-font-weight-700</p>
+            <p class="u-font-lora u-font-weight-400">u-font-weight-400</p>
+            <p class="u-font-lora u-font-weight-100">u-font-weight-100</p>
+
+      
+    
        
           <script src="design-system.js"></script>
 </body>
