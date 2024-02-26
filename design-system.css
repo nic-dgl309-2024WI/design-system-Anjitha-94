@@ -14,8 +14,7 @@
      }
   
   .topnav__logo--active {
-    background-color: var(--clr-secondary);
-    color: var(--clr-primary-text-002);
+   color: var(--clr-primary-text-002);
   }
   
   .topnav__links {
@@ -32,7 +31,6 @@
   }
   
   .topnav__icon {
-    background: var(--clr-secondary);
     color:var(--clr-primary-text-002);
     display: block;
     position: absolute;
@@ -43,7 +41,6 @@
   }
  
   .topnav__link:hover {
-    background-color: var(--clr-secondary);
     color: var(--clr-accent)
   }  
 
@@ -71,7 +68,6 @@
     text-decoration: none;
     color: var(--clr-primary);
     padding: 10px;
-    background-color: transparent;
   }
   .topnav__link,
   .sidebar-nav__link {
@@ -79,7 +75,6 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    background-color: transparent; /* Add this to ensure the background is transparent */
   }
   .sidebar-nav__link:hover {
     color: var(--clr-accent);
@@ -156,8 +151,7 @@
         font-size: 17px;
       }
       .topnav__logo:hover{
-        background-color: var(--clr-secondary);
-        color: var(--clr-primary);
+         color: var(--clr-primary);
       }
       .topnav__links {
         display: flex;
@@ -171,8 +165,7 @@
         font-size: 17px;
       }
       .topnav__link:hover{
-        background-color: transparent;
-        color: var(--clr-accent);
+       color: var(--clr-accent);
       }
       .topnav__icon {
         display: none; /* Hide the hamburger icon on larger screens */
@@ -193,11 +186,10 @@
     .sidebar-nav__link:hover {
       color: var(--clr-accent);
     }
-    .sidebar-nav__link.active ,.topnav__link.active{
+    .sidebar-nav__link.active,.topnav__link.active{
       color: var(--clr-accent-100);
       background-color: var(--clr-primary-bg-003);
-      pointer-events: none;
-      /* Add any additional styles for the active link */
+      width:100%;
     }
 
   
