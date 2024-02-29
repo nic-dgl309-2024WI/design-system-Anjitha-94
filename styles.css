@@ -390,6 +390,26 @@
   padding:2.50rem;
 }
 
+/*padding for left side*/
+.l-pl-1{
+  padding: 1rem;
+} 
+.l-pl-1-25 {
+  padding:1.25rem;
+}
+.l-pl-1-50 {
+  padding:1.5rem;
+}
+.l-pl-2 {
+  padding:2rem;
+}
+.l-pl-2-25 {
+  padding:2.25rem;
+}
+.l-pl-2-50 {
+  padding:2.50rem;
+}
+
 *,
 *::before,
 *::after {
