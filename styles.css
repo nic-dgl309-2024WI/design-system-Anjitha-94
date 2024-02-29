@@ -184,11 +184,13 @@
   margin:2rem;
 }
 .l-m-2-25 {
-  margin:1.25rem;
+  margin:2.25rem;
 }
 .l-m-2-50 {
-  margin:1.25rem;
+  margin:2.50rem;
 }
+
+/*margin top*/
 .l-mt-1{
   margin: 1rem;
 } 
@@ -202,11 +204,12 @@
   margin:2rem;
 }
 .l-mt-2-25 {
-  margin:1.25rem;
+  margin:2.25rem;
 }
 .l-mt-2-50 {
-  margin:1.25rem;
+  margin:2.50rem;
 }
+/* margin bottom*/
 .l-mb-1{
   margin: 1rem;
 } 
@@ -220,11 +223,12 @@
   margin:2rem;
 }
 .l-mb-2-25 {
-  margin:1.25rem;
+  margin:2.25rem;
 }
 .l-mb-2-50 {
-  margin:1.25rem;
+  margin:2.50rem;
 }
+/*margin right*/
 .l-mr-1{
   margin: 1rem;
 } 
@@ -238,12 +242,31 @@
   margin:2rem;
 }
 .l-mr-2-25 {
-  margin:1.25rem;
+  margin:2.25rem;
 }
 .l-mr-2-50 {
-  margin:1.25rem;
+  margin:2.50rem;
 }
 
+/*margin left*/
+.l-ml-1{
+  margin: 1rem;
+} 
+.l-ml-1-25 {
+  margin:1.25rem;
+}
+.l-ml-1-50 {
+  margin:1.5rem;
+}
+.l-ml-2 {
+  margin:2rem;
+}
+.l-ml-2-25 {
+  margin:2.25rem;
+}
+.l-ml-2-50 {
+  margin:2.50rem;
+}
 
 *,
 *::before,
