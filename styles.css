@@ -430,6 +430,27 @@
   padding:2.50rem;
 }
 
+/*padding for top and bottom sides*/
+.l-py-1{
+  padding: 1rem;
+} 
+.l-py-1-25 {
+  padding:1.25rem;
+}
+.l-py-1-50 {
+  padding:1.5rem;
+}
+.l-py-2 {
+  padding:2rem;
+}
+.l-py-2-25 {
+  padding:2.25rem;
+}
+.l-py-2-50 {
+  padding:2.50rem;
+}
+
+
 
 *,
 *::before,
