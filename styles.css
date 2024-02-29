@@ -449,6 +449,15 @@
 .l-py-2-50 {
   padding:2.50rem;
 }
+/*flex*/
+.l-flex {
+  display: flex;
+}
+/*grid*/
+.l-grid {
+  display: grid;
+}
+
 
 
 
