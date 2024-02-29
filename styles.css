@@ -410,6 +410,27 @@
   padding:2.50rem;
 }
 
+/*padding for left and right sides*/
+.l-px-1{
+  padding: 1rem;
+} 
+.l-px-1-25 {
+  padding:1.25rem;
+}
+.l-px-1-50 {
+  padding:1.5rem;
+}
+.l-px-2 {
+  padding:2rem;
+}
+.l-px-2-25 {
+  padding:2.25rem;
+}
+.l-px-2-50 {
+  padding:2.50rem;
+}
+
+
 *,
 *::before,
 *::after {
