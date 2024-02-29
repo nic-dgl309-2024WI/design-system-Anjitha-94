@@ -307,6 +307,29 @@
 .l-my-2-50 {
   margin:2.50rem;
 }
+
+/*padding for all sides*/
+.l-p-1{
+  padding: 1rem;
+} 
+.l-p-1-25 {
+  padding:1.25rem;
+}
+.l-p-1-50 {
+  padding:1.5rem;
+}
+.l-p-2 {
+  padding:2rem;
+}
+.l-p-2-25 {
+  padding:2.25rem;
+}
+.l-p-2-50 {
+  padding:2.50rem;
+}
+
+
+
 *,
 *::before,
 *::after {
