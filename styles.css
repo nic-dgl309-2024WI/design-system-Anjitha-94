@@ -453,13 +453,27 @@
 .l-flex {
   display: flex;
 }
+
+.l-flex-column {
+  flex-direction: column;
+}
+
+.l-flex-wrap {
+  flex-wrap: wrap;
+}
+
+.l-justify-center {
+  justify-content: center;
+}
+
+.l-align-items-center {
+  align-items: center;
+}
+
 /*grid*/
 .l-grid {
   display: grid;
 }
-
-
-
 
 *,
 *::before,
