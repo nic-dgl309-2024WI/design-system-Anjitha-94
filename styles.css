@@ -288,6 +288,25 @@
   margin:2.50rem;
 }
 
+/*margin top and bottom*/
+.l-my-1{
+  margin: 1rem;
+} 
+.l-my-1-25 {
+  margin:1.25rem;
+}
+.l-my-1-50 {
+  margin:1.5rem;
+}
+.l-my-2 {
+  margin:2rem;
+}
+.l-my-2-25 {
+  margin:2.25rem;
+}
+.l-my-2-50 {
+  margin:2.50rem;
+}
 *,
 *::before,
 *::after {
