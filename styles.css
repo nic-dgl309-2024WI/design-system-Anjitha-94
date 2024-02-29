@@ -170,6 +170,26 @@
 .u-text-accent{
   color:var(--clr-accent-100);
 }
+/* Space layout classes*/
+.l-m-1{
+  margin: 1rem;
+}
+.l-m-1-25 {
+  margin:1.25rem;
+}
+.l-m-1-50 {
+  margin:1.5rem;
+}
+.l-m-2 {
+  margin:2rem;
+}
+.l-m-2-25 {
+  margin:1.25rem;
+}
+.l-m-2-50 {
+  margin:1.25rem;
+}
+
 
 *,
 *::before,
