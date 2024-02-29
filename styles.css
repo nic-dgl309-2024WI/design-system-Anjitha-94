@@ -328,7 +328,26 @@
   padding:2.50rem;
 }
 
+/*padding top*/
 
+.l-pt-1{
+  padding: 1rem;
+} 
+.l-pt-1-25 {
+  padding:1.25rem;
+}
+.l-pt-1-50 {
+  padding:1.5rem;
+}
+.l-pt-2 {
+  padding:2rem;
+}
+.l-pt-2-25 {
+  padding:2.25rem;
+}
+.l-pt-2-50 {
+  padding:2.50rem;
+}
 
 *,
 *::before,
