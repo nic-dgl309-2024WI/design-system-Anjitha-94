@@ -370,6 +370,26 @@
   padding:2.50rem;
 }
 
+/*padding for right side*/
+.l-pr-1{
+  padding: 1rem;
+} 
+.l-pr-1-25 {
+  padding:1.25rem;
+}
+.l-pr-1-50 {
+  padding:1.5rem;
+}
+.l-pr-2 {
+  padding:2rem;
+}
+.l-pr-2-25 {
+  padding:2.25rem;
+}
+.l-pr-2-50 {
+  padding:2.50rem;
+}
+
 *,
 *::before,
 *::after {
