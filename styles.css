@@ -494,6 +494,42 @@
 .l-align-content-center {
   align-content: center;
 }
+/* Base container styles (mobile-first) */
+.container {
+  width: 100%; 
+  padding: 0 15px; 
+  margin: 0 auto; 
+}
+
+/* Max-width for mobile devices */
+.container-max-mobile {
+  max-width: 540px; 
+}
+
+
+.container-full-width {
+  width: 100%;
+  max-width: none; /* Ensures the container is always full width */
+}
+
+/* Media query for desktop sizes */
+@media (min-width: 768px) { 
+  .container {
+      
+      padding: 0 30px;
+  }
+
+  .container-max-desktop {
+      max-width: 1140px; 
+  }
+
+  
+}
+
+.container-centered-text {
+  text-align: center;
+}
+
 
 *,
 *::before,
