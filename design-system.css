@@ -1,8 +1,13 @@
  /* Style the navigation menu for mobile */
  .topnav {
-    overflow: hidden;
-    position: relative;
-    justify-content: space-between;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 10; /* Ensure it stays above other content */
+  display: flex;
+  justify-content: space-between; /* This will space out the logo and nav links */
+  align-items: center;
+  padding: 0 20px;
    }
 
   .topnav__logo {
@@ -52,6 +57,7 @@
 .sidebar {
     width: 200px;
     display: none;
+    position: fixed;
 
   }
   .sidebar-nav {
@@ -140,8 +146,7 @@
       
       .topnav__logo-container {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+      /* justify-content: space-between;*/
       }
       .topnav__logo {
         margin-right: left; /* Push the logo to the left */
@@ -155,8 +160,8 @@
       }
       .topnav__links {
         display: flex;
-        align-items: center;
-      }
+        justify-content: flex-end; /* Aligns the links to the right */
+       }
     
       .topnav__link {
         color: var(--clr-primary-text-001);
@@ -179,6 +184,14 @@
       }
       .sidebar{
         display:flex;
+        position:fixed; 
+        height: 100vh;
+        width: 200px;
+        position: fixed;
+        top: 60px; /* Height of the top nav */
+        left: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
       }
       .sidebar_mobile {
         display:none;
