@@ -98,10 +98,10 @@ background-color: var(--clr-primary-bg-003);
   height:100px;
    }
    .large-screen {
-    display: none; /* Show large-screen class content on large screens */
+    display: none; /*  Ensure  large-screen class content on large screens */
   }
   .mobile {
-    display: block; /* Ensure mobile content is hidden on large screens */
+    display: block; /* Show mobile content is hidden on large screens */
   }
 
 /*Typography*/
