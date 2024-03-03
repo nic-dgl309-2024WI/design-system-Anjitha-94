@@ -336,6 +336,9 @@
 .l-p-2-50 {
   padding:2.50rem;
 }
+.l-p-3-75{
+  padding:3.75rem;
+}
 
 /*padding top*/
 
@@ -513,7 +516,9 @@
   padding: 0 15px; 
   margin: 0 auto; 
 }
-
+.c-style-list {
+  list-style-type: style;
+}
 /* Max-width for mobile devices */
 .c-container-max-mobile {
   max-width: 540px; 
