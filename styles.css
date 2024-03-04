@@ -169,7 +169,10 @@
 }
 .u-text-accent{
   color:var(--clr-accent-100);
-}
+  }
+  .u-line-height{
+    line-height: var(--line-height);
+  }
 /* Space layout classes for margin*/
 .l-m-0{
   margin:0;
