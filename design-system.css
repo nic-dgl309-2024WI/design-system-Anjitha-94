@@ -101,7 +101,7 @@ background-color: var(--clr-primary-bg-003);
     display: none; /*  Ensure  large-screen class content on large screens */
   }
   .mobile {
-    display: block; /* Show mobile content is hidden on large screens */
+    display: block; /* Show mobile content is  on large screens */
   }
 
 /*Typography*/
