@@ -18,7 +18,7 @@
     <!--The code taken from w3 schools:https://www.w3schools.com/howto/howto_js_mobile_navbar.asp make the class names according to BEM --> 
     <div class="topnav u-color-white u-color-secondary-bg u-font-lora">
       <div class="topnav__logo-container u-color-secondary-bg">
-          <a href="index.html" class="topnav__logo topnav__logo--active topnav__link active">Design System</a>
+          <a href="index.html" class="topnav__logo topnav__logo--active topnav__link ">Design System</a>
           <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
           <a href="javascript:void(0);" class="topnav__icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
@@ -67,8 +67,8 @@
           <li><a href="typography.html"  class="sidebar-nav__link topnav__link">02. Typography</a></li>
           <li><a href="#" class="sidebar-nav__link">03. Logo</a></li>
           <p class="sidebar-nav__heading">Utilities</p>
-          <li><a href="spacing.html" class="sidebar-nav__link">04. Spacing</a></li>
-          <li><a href="#" class="sidebar-nav__link">05. Containers</a></li>
+          <li><a href="spacing.html" class="sidebar-nav__link topnav__link">04. Spacing</a></li>
+          <li><a href="containers.html" class="sidebar-nav__link topnav__link active">05. Containers</a></li>
           <li><a href="#" class="sidebar-nav__link">06. Images</a></li>
           <li><a href="#" class="sidebar-nav__link">07. Interactive</a></li>
           <li><a href="#" class="sidebar-nav__link">08. Feedback</a></li>
@@ -88,6 +88,64 @@
           <li><a href="#" class="sidebar-nav__link">19. Lists</a></li>
         </ul>
       </div>
+      <main>
+                <!--********mobile screen view-->
+
+        <!-- Lay out classes for Margin-->
+        <div class="mobile l-flex l-flex-column l-justify-center l-align-items-center l-p-3-75">
+          <h1 class="l-p-1-25">Flex containers</h1>
+         <p class="u-font-size-500" >l-flex :display flex</p>                 
+       <p class="u-font-size-500">l-flex-column  :flex direction column</p>
+       <p class="u-font-size-500">l-flex-row :flex direction row</p>
+       <p class="u-font-size-500">l-flex-wrap: flex wrap </p>
+       <p class="u-font-size-500">l-justify-center:justify content center </p>
+       <p class="u-font-size-500">l-align-items-center :align-items center</p>
+      
+      
+       
+
+<!-- Lay out classes for Padding-->
+
+
+   <h1 class="l-p-1-25">Grid containers</h1>
+   <p class="u-font-size-500" >l-grid:display grid</p>                 
+   <p class="u-font-size-500">l-grid-column  :grid column</p>
+   <p class="u-font-size-500">l-grid-row :grid row</p>
+   <p class="u-font-size-500">l-gap :gap </p>
+   <p class="u-font-size-500">l-justify-items-center :justify items center </p>
+   <p class="u-font-size-500">l-align-content-center :align content center</p>
+       
+</div>
+<!--********mobile screen view-->
+
+<!-- Lay out classes for Margin-->
+<div class="large-screen  ">
+   <div class="l-flex l-ml-10">
+   <div class="l-flex l-justify-center l-align-items-center l-flex-column l-p-3-75">
+    <h1 class="l-p-1-25">Flex containers</h1>
+    <p class="u-font-size-500" >l-flex :display flex</p>                 
+  <p class="u-font-size-500">l-flex-column  :flex direction column</p>
+  <p class="u-font-size-500">l-flex-row :flex direction row</p>
+  <p class="u-font-size-500">l-flex-wrap: flex wrap </p>
+  <p class="u-font-size-500">l-justify-center:justify content center </p>
+  <p class="u-font-size-500">l-align-items-center :align-items center</p>
+ 
+           
+   </div>
+<!-- Lay out classes for Padding-->
+
+   <div  class="l-flex l-justify-center l-align-items-center l-flex-column l-p-3-75">
+    <h1 class="l-p-1-25">Grid containers</h1>
+    <p class="u-font-size-500" >l-grid:display grid</p>                 
+    <p class="u-font-size-500">l-grid-column  :grid column</p>
+    <p class="u-font-size-500">l-grid-row :grid row</p>
+    <p class="u-font-size-500">l-gap :gap </p>
+    <p class="u-font-size-500">l-justify-items-center :justify items center </p>
+    <p class="u-font-size-500">l-align-content-center :align content center</p>
+   </div>
+</div>
+</div>
+      </main>
       
           <script src="design-system.js"></script>
 </body>
