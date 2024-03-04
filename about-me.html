@@ -5,17 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="design-system.css" />
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="topnav u-color-white u-color-secondary-bg u-font-lora">
+      <div class="topnav__logo-container u-color-secondary-bg">
+          <a href="index.html" class="topnav__logo topnav__logo--active topnav__link active">Design System</a>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="topnav__icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        <!-- Navigation links (hidden by default) mobile screen-->
+        <div class="topnav__links" id="myLinks">
+          <a href="about-me.html" class="topnav__link">About me</a>
+          <a href="#" class="topnav__link">Demo site</a>
+          </div>
+          </div>
+          </div>
       <!-- add your name -->
-    <h1>Hi! My name is Anjitha Karuthara Balakrishnan.</h1>
-    <h2>I am a web developer.</h2>
+    <h1 class="u-heading u-color-primary-text002">Hi! My name is Anjitha Karuthara Balakrishnan.</h1>
+    <h2 class="u-heading-2 u-color-primary-text002">I am a web developer.</h2>
     <!-- add your portrait photo -->
+    <div class="l-flex l-flex-column l-justify-center  l-align-items-center" >
     <img
       src="images/anjitha.jpg"
       alt="Portrait of Anjitha Karuthara Balakrishnan"
       style="width: 500px; height: 500px"
-    />
+    /></div>
     <!-- add a short biography. Include where you are from, your education background, your current program, and something interesting about yourself. -->
     <p>
       Anjitha Karuthara Balakrishnan, originally from India, is a tech enthusiast with a background in Electronics and Communication Engineering, graduating in 2015.
