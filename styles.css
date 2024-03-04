@@ -276,6 +276,9 @@
 .l-ml-10{
   margin-left: 10rem;
 }
+.l-ml-30{
+  margin-left: 30rem;
+}
 .l-ml-50{
   margin-left: 50rem;
 }
@@ -349,124 +352,124 @@
 /*padding top*/
 
 .l-pt-1{
-  padding: 1rem;
+  padding-top: 1rem;
 } 
 .l-pt-1-25 {
-  padding:1.25rem;
+  padding-top:1.25rem;
 }
 .l-pt-1-50 {
-  padding:1.5rem;
+  padding-top:1.5rem;
 }
 .l-pt-2 {
-  padding:2rem;
+  padding-top:2rem;
 }
 .l-pt-2-25 {
-  padding:2.25rem;
+  padding-top:2.25rem;
 }
 .l-pt-2-50 {
-  padding:2.50rem;
+  padding-top:2.50rem;
 }
 
 /*padding for bottom*/
 
 .l-pb-1{
-  padding: 1rem;
+  padding-bottom: 1rem;
 } 
 .l-pb-1-25 {
-  padding:1.25rem;
+  padding-bottom:1.25rem;
 }
 .l-pb-1-50 {
-  padding:1.5rem;
+  padding-bottom:1.5rem;
 }
 .l-pb-2 {
-  padding:2rem;
+  padding-bottom:2rem;
 }
 .l-pb-2-25 {
-  padding:2.25rem;
+  padding-bottom:2.25rem;
 }
 .l-pb-2-50 {
-  padding:2.50rem;
+  padding-bottom:2.50rem;
 }
 
 /*padding for right side*/
 .l-pr-1{
-  padding: 1rem;
+  padding-right: 1rem;
 } 
 .l-pr-1-25 {
-  padding:1.25rem;
+  padding-right:1.25rem;
 }
 .l-pr-1-50 {
-  padding:1.5rem;
+  padding-right:1.5rem;
 }
 .l-pr-2 {
-  padding:2rem;
+  padding-right:2rem;
 }
 .l-pr-2-25 {
-  padding:2.25rem;
+  padding-right:2.25rem;
 }
 .l-pr-2-50 {
-  padding:2.50rem;
+  padding-right:2.50rem;
 }
 
 /*padding for left side*/
 .l-pl-1{
-  padding: 1rem;
+  padding-left: 1rem;
 } 
 .l-pl-1-25 {
-  padding:1.25rem;
+  padding-left:1.25rem;
 }
 .l-pl-1-50 {
-  padding:1.5rem;
+  padding-left:1.5rem;
 }
 .l-pl-2 {
-  padding:2rem;
+  padding-left:2rem;
 }
 .l-pl-2-25 {
-  padding:2.25rem;
+  padding-left:2.25rem;
 }
 .l-pl-2-50 {
-  padding:2.50rem;
+  padding-left:2.50rem;
 }
 
 /*padding for left and right sides*/
 
 .l-px-1{
-  padding: 1rem;
+  padding:0 1rem;
 } 
 .l-px-1-25 {
-  padding:1.25rem;
+  padding: 0 1.25rem;
 }
 .l-px-1-50 {
-  padding:1.5rem;
+  padding:0 1.5rem;
 }
 .l-px-2 {
-  padding:2rem;
+  padding:0 2rem;
 }
 .l-px-2-25 {
-  padding:2.25rem;
+  padding:0 2.25rem;
 }
 .l-px-2-50 {
-  padding:2.50rem;
+  padding:0 2.50rem;
 }
 
 /*padding for top and bottom sides*/
 .l-py-1{
-  padding: 1rem;
+  padding: 1rem 0;
 } 
 .l-py-1-25 {
-  padding:1.25rem;
+  padding:1.25rem 0;
 }
 .l-py-1-50 {
-  padding:1.5rem;
+  padding:1.5rem 0;
 }
 .l-py-2 {
-  padding:2rem;
+  padding:2rem 0;
 }
 .l-py-2-25 {
-  padding:2.25rem;
+  padding:2.25rem 0;
 }
 .l-py-2-50 {
-  padding:2.50rem;
+  padding:2.50rem 0;
 }
 /*flex*/
 .l-flex {
