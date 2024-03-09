@@ -47,8 +47,6 @@
 
 .topnav__link.active{
 color: #ff0000; 
-background-color: var(--clr-primary-bg-003);
-width:fit-content
 }
 /* Style the sidebar */
 .sidebar {
@@ -83,9 +81,7 @@ width:fit-content
 }
 .sidebar-nav__link.active {
   color:var(--clr-accent-100); 
-  background-color: var(--clr-primary-bg-003);
-  width:fit-content;
-}
+ }
 
  
 .color-swatches {
