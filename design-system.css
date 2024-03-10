@@ -46,7 +46,7 @@
 }  
 
 .topnav__link.active{
-color: #ff0000; 
+color: #e60707; 
 }
 /* Style the sidebar */
 .sidebar {
@@ -93,6 +93,7 @@ color: #ff0000;
 .color-box{
   width:200px;
   height:100px;
+  border: 1px solid black;
    }
    .large-screen {
     display: none; /*  Ensure  large-screen class content on large screens */
@@ -181,7 +182,6 @@ color: #ff0000;
   }
   .sidebar-nav__link.active,.topnav__link.active{
     color: var(--clr-accent-100);
-    background-color: var(--clr-primary-bg-003);
      }
      .large-screen {
       display: block; /* Show large-screen class content on large screens */
