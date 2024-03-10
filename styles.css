@@ -215,6 +215,10 @@
 .l-mt-2-50 {
   margin-top:2.50rem;
 }
+
+.l-mt-4-50 {
+  margin-top:4.50rem;
+}
 /* margin bottom*/
 .l-mb-1{
   margin-bottom: 1rem;
@@ -348,7 +352,9 @@
 .l-p-3-75{
   padding:3.75rem;
 }
-
+.l-p-4-50 {
+  padding-top:4.50rem;
+}
 /*padding top*/
 
 .l-pt-1{
@@ -497,14 +503,19 @@
 .l-align-items-center {
   align-items: center;
 }
-
+.l-align-items-left {
+  align-items: flex-start;
+}
+.l-align-items-right {
+  align-items: right;
+}
 /*grid*/
 .l-grid {
   display: grid;
 }
 
 .l-grid-columns {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr;
 }
 
 .l-grid-rows {
