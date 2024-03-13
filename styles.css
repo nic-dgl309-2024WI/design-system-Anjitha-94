@@ -7,11 +7,11 @@
   
 
   /* Primary Colors */
-  --clr-primary-bg-001: #F4D2E9; /* Base color1 */
+  --clr-primary-bg-001: #e6e4f1; /* Base color1 */
   --clr-primary-text-001: #0a4c2e; /*text color*/
   --clr-primary-text-002: #411038;/*text color*/
-  --clr-primary-bg-002:#FFADAD;/* Base color2*/
-  --clr-primary-bg-003:#B3E5CE;/* Base color3*/
+  --clr-primary-bg-002:#d7f3f1;/* Base color2*/
+  --clr-primary-bg-003:#eed4f0;/* Base color3*/
 
   /* Secondary Colors */
   --clr-secondary-bg: #fff7b3; /* Secondary background color */
