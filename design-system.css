@@ -189,5 +189,10 @@ color: #e60707;
     .mobile {
       display: none; /* Ensure mobile content is hidden on large screens */
     }
+    .container{
+      width:80%;
+      margin: auto;
+      box-sizing: border-box;
+    }
 }
 
