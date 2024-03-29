@@ -552,6 +552,63 @@
   width: 100%;
   max-width: none; /* Ensures the container is always full width */
 }
+.container-centered-text {
+  text-align: center;
+}
+
+
+/*    Navigation for demosite*/
+ /* Style the navigation menu for mobile */
+ .topnav {
+  overflow: hidden;
+  position: fixed;
+  justify-content: space-between;
+  width:100%;
+ }
+
+.topnav__logo {
+  color: var(--clr-primary);
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+   }
+
+.topnav__logo--active {
+ color: var(--clr-primary-text-002);
+}
+
+.topnav__links {
+  display: none;
+}
+
+.topnav__link {
+  color: var(--clr-primary);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: left;
+  display: block;
+}
+
+.topnav__icon {
+  color:var(--clr-primary-text-002);
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+  padding:10px;
+}
+
+.topnav__link:hover {
+  color: var(--clr-accent)
+}  
+
+.topnav__link.active{
+color: #e60707; 
+}
+
 
 /* Media query for desktop sizes */
 @media (min-width: 768px) { 
@@ -564,12 +621,44 @@
       max-width: 1140px; 
   }
 
-  
+  /* Navbar for large screen*/
+  .topnav__logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .topnav__logo {
+    margin-right: left; /* Push the logo to the left */
+    color: var(--clr-white);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav__logo:hover{
+     color: var(--clr-primary);
+  }
+  .topnav__links {
+    display: flex;
+    align-items: center;
+  }
+
+  .topnav__link {
+    color: var(--clr-primary-text-001);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav__link:hover{
+   color: var(--clr-accent);
+  }
+  .topnav__icon {
+    display: none; /* Hide the hamburger icon on larger screens */
+  }
+  .topnav__link.active{
+    color: var(--clr-accent-100);
+     }
 }
 
-.container-centered-text {
-  text-align: center;
-}
 
 
 *,
