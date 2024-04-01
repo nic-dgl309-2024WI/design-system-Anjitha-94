@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Top Navigation Menu -->
+    <!--The code taken from w3 schools:https://www.w3schools.com/howto/howto_js_mobile_navbar.asp make the class names according to BEM --> 
+    <div class="topnav u-color-white u-color-secondary-bg u-font-lora">
+      <div class="topnav__logo-container u-color-secondary-bg">
+          <a href="index.html" class="topnav__logo topnav__logo--active topnav__link active">Design System</a>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="topnav__icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        <!-- Navigation links (hidden by default) mobile screen-->
+        <div class="topnav__links" id="myLinks">
+          <a href="#" class="topnav__link">Product list</a>
+          <a href="#" class="topnav__link">FAQ & Gift certificates</a>
+          <a href="#" class="topnav__link">About</a>
+          <a href="#" class="topnav__link">Contact</a>
+          </div>
+          </div>
+          </div>
