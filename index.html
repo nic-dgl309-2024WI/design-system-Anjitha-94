@@ -17,17 +17,17 @@
     <!--The code taken from w3 schools:https://www.w3schools.com/howto/howto_js_mobile_navbar.asp make the class names according to BEM --> 
     <div class="topnav u-color-white u-color-secondary-bg u-font-lora">
       <div class="topnav__logo-container u-color-secondary-bg">
-          <a href="index.html" class="topnav__logo topnav__logo--active topnav__link active">Design System</a>
+          <a href="index.html" class="topnav__logo topnav__logo--active topnav__link active">Demo Site</a>
           <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
           <a href="javascript:void(0);" class="topnav__icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
         <!-- Navigation links (hidden by default) mobile screen-->
         <div class="topnav__links" id="myLinks">
-          <a href="#" class="topnav__link">Product list</a>
-          <a href="#" class="topnav__link">FAQ & Gift certificates</a>
-          <a href="#" class="topnav__link">About</a>
-          <a href="#" class="topnav__link">Contact</a>
+          <a href="coming-soon.html" class="topnav__link">Product list</a>
+          <a href="coming-soon.html" class="topnav__link">FAQ & Gift certificates</a>
+          <a href="coming-soon.html" class="topnav__link">About</a>
+          <a href="coming-soon.html" class="topnav__link">Contact</a>
           </div>
           </div>
           </div>
@@ -58,7 +58,7 @@
                 We are open on March 1, 2024
               </h2>
               <h3 class="u-text-accent u-font-merriweather u-font-size-400 u-font-weight-700 l-p-0 u-line-height">
-                Every day including Statutory Holidays from 9-5
+                Every day including Statutory Holidays from 9.00am-5.00pm
               </h3>
             </div>
           </section>
@@ -80,8 +80,30 @@
                 <a href="coming-soon.html" class="name">Name 3</a>
               </div>
             </div>
-            
           </section>
+          <section class="u-color-light">
+            <h2  class="l-flex l-flex-column l-justify-center l-align-items-center u-font-lora u-font-size-600  l-p-2">
+              We Provides Gift Certificates
+            </h2>
+            <div class="form-container u-color-secondary-bg ">
+              <form id="contactForm">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number:</label>
+                  <input type="tel" id="phone" name="phone" required>
+                </div>
+                <button type="submit">Submit</button>
+              </form>
+            </div>
           </main>
           <script src="design-system.js"></script>
           </body>
+
+          

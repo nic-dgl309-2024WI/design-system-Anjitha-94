@@ -24,3 +24,23 @@ function showSlides() {
   slides[slideIndex - 1].style.display = "block";
   setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
+
+//forms
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+  event.preventDefault(); // Prevents the default form submission action
+  alert('Our team will contact you within two business days.'); // Shows popup message
+  this.reset(); // Resets the form fields
+});
+
+/*Accordian*/
+
+document.querySelector(".accordion").addEventListener("click", function() {
+  this.classList.toggle("active");
+  var panel = this.nextElementSibling;
+  if (panel.style.display === "block") {
+    panel.style.display = "none";
+  } else {
+    panel.style.display = "block";
+  }
+});

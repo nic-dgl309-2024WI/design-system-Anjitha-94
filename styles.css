@@ -499,6 +499,9 @@
 .l-justify-center {
   justify-content: center;
 }
+.l-justify-right{
+  justify-content: flex-end;
+}
 
 .l-align-items-center {
   align-items: center;
@@ -686,7 +689,122 @@ color: #e60707;
 .card .name:hover {
   text-decoration: underline; /* Adds underline on hover for visual feedback */
 }
+/*form*/
 
+.form-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/*Accordian*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.btn{
+background-color: #007bff;
+color: white;
+position: absolute;
+right: 25%;
+padding: 10px 20px;
+border: none;
+border-radius: 16px;
+cursor: pointer;
+text-decoration: none;
+
+}
+
+/*footer*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 160px; /* Minimum width for responsiveness */
+}
+
+.social-media {
+  text-align: center; /* Centers social media links and copyright text */
+}
+
+.footer-section h4, .footer-section p, .footer-section ul {
+  margin: 0 0 10px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
 
 
 
