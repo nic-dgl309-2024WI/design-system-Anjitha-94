@@ -35,12 +35,16 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
 /*Accordian*/
 
-document.querySelector(".accordion").addEventListener("click", function() {
-  this.classList.toggle("active");
-  var panel = this.nextElementSibling;
-  if (panel.style.display === "block") {
-    panel.style.display = "none";
-  } else {
-    panel.style.display = "block";
-  }
+document.addEventListener('DOMContentLoaded', function () {
+  var accordions = document.querySelectorAll('.accordion-header');
+  accordions.forEach(function (accordion) {
+    accordion.addEventListener('click', function () {
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+    });
+  });
 });
