@@ -737,79 +737,58 @@ button[type="submit"]:hover {
 
 
 /*Accordian*/
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
+/* Base styles */
+.accordion-container {
+  max-width: 90%; /* Suitable for mobile devices */
+  margin: auto;
+}
+
+.accordion-header {
+  background-color: #42474c;
+  color: white;
+  padding: 15px;
+  font-size: 1em; /* Adaptable font size */
   border: none;
+  text-align: left;
   outline: none;
-  transition: 0.4s;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.accordion:hover {
-  background-color: #ccc;
-}
-
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
+.accordion-panel {
+  max-height: 0;
   overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  padding: 0 15px;
 }
-.btn{
-background-color: #007bff;
-color: white;
-position: absolute;
-right: 25%;
-padding: 10px 20px;
-border: none;
-border-radius: 16px;
-cursor: pointer;
-text-decoration: none;
 
+
+
+/* Base styles for buttons (larger on small screens) */
+.btn {
+  background-color: #007bff; /* Example button color */
+  color: white;
+  padding: 15px 30px; /* Larger padding for a bigger button */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem; /* Adjust font size for better readability on larger buttons */
+  text-decoration: none; /* Remove underline from links */
 }
+
+.btn:hover {
+  background-color: #0056b3; /* Darker shade on hover for better interaction feedback */
+}
+
 
 /*footer*/
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #333;
-  color: white;
-  flex-wrap: wrap; /* Ensures responsiveness */
+footer {
+  display: none;
 }
 
-.footer-section {
-  flex: 1;
-  min-width: 160px; /* Minimum width for responsiveness */
-}
-
-.social-media {
-  text-align: center; /* Centers social media links and copyright text */
-}
-
-.footer-section h4, .footer-section p, .footer-section ul {
-  margin: 0 0 10px;
-}
-
-.footer-section ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.footer-section ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.footer-section a:hover {
-  text-decoration: underline;
-}
 
 
 
@@ -868,6 +847,65 @@ text-decoration: none;
         width: auto; /* Make the button smaller by adjusting its width */
         padding: 10px 50px; /* Adjust padding as needed for aesthetic purposes */
       }
+      /*btn*/
+      .btn {
+        background-color: #007bff;
+        color: white;
+        position: absolute;
+        right: 25%;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 16px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      /*Accordian*/  
+      
+      .accordion-container {
+        max-width: 50%; /* Adjust based on preference */
+      }
+    
+      .accordion-header {
+        padding: 20px;
+        font-size: 1.25em;
+      }
+      .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #333;
+        color: white;
+        flex-wrap: wrap; /* Ensures responsiveness */
+      }
+      
+      .footer-section {
+        flex: 1;
+        min-width: 160px; /* Minimum width for responsiveness */
+      }
+      
+      .social-media {
+        text-align: center; /* Centers social media links and copyright text */
+      }
+      
+      .footer-section h4, .footer-section p, .footer-section ul {
+        margin: 0 0 10px;
+      }
+      
+      .footer-section ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      .footer-section ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      
+      .footer-section a:hover {
+        text-decoration: underline;
+      }
+      
     }
     
      
