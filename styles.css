@@ -861,7 +861,7 @@ text-decoration: none;
     color: var(--clr-accent-100);
      }
      .card {
-      flex: 0 0 calc(33.333% - 40px); /* Subtract double the gap to maintain consistent spacing */
+     flex: 0 0 calc(33.333% - 40px); /* Subtract double the gap to maintain consistent spacing */
     }
 /*form button*/
       button[type="submit"] {
