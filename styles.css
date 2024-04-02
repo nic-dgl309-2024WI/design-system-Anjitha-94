@@ -616,7 +616,7 @@ color: #e60707;
 /* Carousel styles*/
 .carousel {
   position: relative;
-  width: 600px; /* Carousel width to match the image frame */
+  width:100%; /* Carousel width to match the image frame */
   margin: auto;
   overflow: hidden;
 }
@@ -624,12 +624,12 @@ color: #e60707;
 .carousel-items .carousel-item {
   display: none;
   position: relative;
-  width: 100%; /* Full width of the container, 100px */
+  width: 100%; /* Full width of the container, */
   height: 600px; /* Height adjusted to 100px */
 }
 
 .carousel-items .carousel-item img {
-  width: 800px; /* Frame width for the image */
+  width: 100%; /* Frame width for the image */
   height: 800px; /* Frame height for the image */
   object-fit: contain; /* Ensures full image is visible, may introduce blank space */
 }
@@ -641,53 +641,53 @@ color: #e60707;
 .description {
   position: absolute;
   bottom: 0; /* Adjusted to sit at the bottom of the carousel */
-  right: 0; /* Adjusted to align to the right within the carousel */
+  right: 250px; /* Adjusted to align to the right within the carousel */
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
   color: #fff;
-  padding: 5px;
-  font-size: 0.8em; /* Adjust the font size as necessary */
+ font-size: 0.8em; /* Adjust the font size as necessary */
   border-radius: 0 0 0 5px; /* Rounded corner on the top-left only */
-  width: calc(100% - 20px); /* Full width of the container minus padding */
+  width:250px; 
 }
 
 /*card styles*/
 
 
-.card-container {
+.cards-container {
   display: flex;
-  justify-content: space-around; /* Distributes space evenly around items */
-  align-items: flex-start; /* Aligns items to the start of the container */
-  flex-wrap: wrap; /* Allows cards to wrap in smaller viewports */
-  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px; /* Adjust the space between the cards */
 }
 
+/* Styles for each card */
 .card {
-  flex: 0 1 calc(33.333% - 40px); /* Adjust based on padding/margin, with flex-grow set to 0, flex-shrink to 1 */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Simple box shadow for styling */
-  margin: 10px; /* Adjust as necessary */
-  text-align: center; /* Center the text/name */
   display: flex;
-  flex-direction: column; /* Stacks image and name vertically */
-  justify-content: space-between; /* Distributes space evenly */
-  height: 250px; /* Fixed height for uniformity */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center-align the items horizontally */
+  justify-content: start; /* Align items to the start of the flex container */
+  width: 18rem; /* Your specified width */
+  height: 100%;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
-
-.card img {
-  width: 100%; /* Make the image fill the card width */
-  height: 200px; /* Fixed height for the image */
-  object-fit: fill; /* Ensures the image covers the area, might crop */
+.card-img-top {
+  width: 100%; /* Continue to make the image fill the width of its container */
+  height: 250px; /* Set a fixed height. Adjust as needed. */
+  object-fit: contain; /* Ensure the image covers the area, may result in cropping */
 }
-
-.card .name {
-  margin-top: 10px; /* Space between image and name */
-  font-size: 16px; /* Adjust the font size as necessary */
-  color: #000; /* Link color */
-  text-decoration: none; /* Removes underline from links */
-  display: block; /* Ensures the link fills the width of the card for easier clicking */
+.btn-card  {
+  margin-top: auto; /* Pushes the button to the bottom */
+  width:100px; /* Optional: Adjust width as needed, accounting for padding/margins */
+  margin: 10px; /* Adjust as necessary for spacing around the button */
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
+.btn-card:hover{
+  background-color: #007bffa8;
 
-.card .name:hover {
-  text-decoration: underline; /* Adds underline on hover for visual feedback */
 }
 /*form*/
 
@@ -855,7 +855,10 @@ text-decoration: none;
   .topnav__link.active{
     color: var(--clr-accent-100);
      }
-
+     .card {
+      flex: 0 0 calc(33.333% - 40px); /* Subtract double the gap to maintain consistent spacing */
+    }
+  
      
 }
 
