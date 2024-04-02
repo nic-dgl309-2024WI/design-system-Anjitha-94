@@ -691,6 +691,7 @@ color: #e60707;
 }
 /*form*/
 
+/* Base styles for mobile and small screens */
 .form-container {
   max-width: 400px;
   margin: 40px auto;
@@ -719,6 +720,7 @@ color: #e60707;
 }
 
 button[type="submit"] {
+  width: 100%; /* Full width on smaller screens */
   background-color: #007bff;
   color: white;
   padding: 10px 20px;
@@ -730,6 +732,9 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #0056b3;
 }
+
+
+
 
 /*Accordian*/
 .accordion {
@@ -858,9 +863,15 @@ text-decoration: none;
      .card {
       flex: 0 0 calc(33.333% - 40px); /* Subtract double the gap to maintain consistent spacing */
     }
-  
+/*form button*/
+      button[type="submit"] {
+        width: auto; /* Make the button smaller by adjusting its width */
+        padding: 10px 50px; /* Adjust padding as needed for aesthetic purposes */
+      }
+    }
+    
      
-}
+
 
 
 
