@@ -673,17 +673,20 @@ color: #e60707;
   width: 100%; /* Continue to make the image fill the width of its container */
   height: 250px; /* Set a fixed height. Adjust as needed. */
   object-fit: contain; /* Ensure the image covers the area, may result in cropping */
+  border-radius: 8px;
 }
 .btn-card  {
   margin-top: auto; /* Pushes the button to the bottom */
-  width:100px; /* Optional: Adjust width as needed, accounting for padding/margins */
+  width:200px; /* Optional: Adjust width as needed, accounting for padding/margins */
   margin: 10px; /* Adjust as necessary for spacing around the button */
   background-color: #007bff;
   color: white;
   padding: 10px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
+  text-decoration: none;
+  text-align: center;
 }
 .btn-card:hover{
   background-color: #007bffa8;
@@ -744,8 +747,6 @@ button[type="submit"]:hover {
 }
 
 .accordion-header {
-  background-color: #42474c;
-  color: white;
   padding: 15px;
   font-size: 1em; /* Adaptable font size */
   border: none;
@@ -782,7 +783,39 @@ button[type="submit"]:hover {
 .btn:hover {
   background-color: #0056b3; /* Darker shade on hover for better interaction feedback */
 }
+/*testimonials*/
+.testimonial-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align the cards on small screens */
+  gap: 20px;
+  padding: 0 15px;
+}
+
+.testimonial-card {
+  background-color: #f7f7f7; /* Light grey background for cards */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  width: 100%; /* Full width on small screens */
+}
+
+.testimonial-text {
+  font-style: italic;
+  color: #555; /* Dark grey text color */
+}
+
+.testimonial-author {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #333; /* Dark text color for contrast */
+}
 
 /*footer*/
 footer {
@@ -869,6 +902,20 @@ footer {
         padding: 20px;
         font-size: 1.25em;
       }
+
+      /*testimonials*/
+
+      .testimonial-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around; /* Evenly space the cards in the row */
+      }
+    
+      .testimonial-card {
+        width: calc(33.333% - 40px); /* Adjust to fit 3 cards per row with spacing */
+        /* Flex-basis can also be used instead of width for flex items */
+      }
+      /*footer*/
       .footer {
         display: flex;
         justify-content: space-between;
