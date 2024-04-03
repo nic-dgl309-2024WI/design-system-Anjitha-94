@@ -102,6 +102,8 @@ color: #e60707;
     display: block; /* Show mobile content is  on large screens */
   }
 
+
+
 /*Typography*/
 .u-heading {
   font-family: var(--heading-font-family);
@@ -189,6 +191,6 @@ color: #e60707;
     .mobile {
       display: none; /* Ensure mobile content is hidden on large screens */
     }
-
-}
+  
+  }
 
