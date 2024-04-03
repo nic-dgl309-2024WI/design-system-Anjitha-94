@@ -219,6 +219,9 @@
 .l-mt-4-50 {
   margin-top:4.50rem;
 }
+.l-mt-6-50 {
+  margin-top:6.50rem;
+}
 /* margin bottom*/
 .l-mb-1{
   margin-bottom: 1rem;
@@ -354,6 +357,12 @@
 }
 .l-p-4-50 {
   padding-top:4.50rem;
+}
+.l-p-6-50 {
+  padding-top:6.50rem;
+}
+.l-p-10 {
+  padding-top:10rem;
 }
 /*padding top*/
 
