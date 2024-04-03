@@ -818,7 +818,7 @@ button[type="submit"]:hover {
 }
 
 /*footer*/
-footer {
+.footer_1 {
   display: none;
 }
 
@@ -916,7 +916,7 @@ footer {
         /* Flex-basis can also be used instead of width for flex items */
       }
       /*footer*/
-      .footer {
+      .footer_1 {
         display: flex;
         justify-content: space-between;
         align-items: center;
