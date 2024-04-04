@@ -122,6 +122,31 @@ color: #e60707;
   letter-spacing: var(--letter-spacing);
   color: var(--clr-secondary-text);
 }
+.code-container {
+  position: relative;
+  display: inline-block; /* Wrap the container around the content */
+  border: 2px solid #ddd; /* Add border */
+  margin: 10px; /* Add some margin around the box */
+  border-radius: 5px; /* Optional: rounded corners */
+  background-color: #f9f9f9; /* Light background */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: add shadow for depth */
+}
+.code-block {
+  padding: 20px; /* Add padding around the code */
+  overflow-x: auto; /* Make sure it scrolls horizontally if needed */
+}
+.copy-icon {
+  position: absolute;
+  right: 5px; /* Adjust based on preference */
+  top: 5px; /* Adjust based on preference */
+  cursor: pointer;
+  font-size: 24px; /* Icon size */
+  color: #64748B; /* Icon color, adjust as needed */
+}
+/* Optional: Style for hover effect on the icon */
+.copy-icon:hover {
+  color: #2c5282; /* Darker shade when hovered */
+}
 
 /* Media query for larger screens (min-width: 769px) */
 @media screen and (min-width: 769px) {
