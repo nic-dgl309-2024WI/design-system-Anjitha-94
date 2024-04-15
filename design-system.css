@@ -183,6 +183,9 @@ color: #e60707;
     .topnav__icon {
       display: none; /* Hide the hamburger icon on larger screens */
     }
+    .top_width{
+      max-width: 600px;
+    }
     .sidebar-nav__link {
       color: var(--clr-primary);
       padding: 14px 16px;
