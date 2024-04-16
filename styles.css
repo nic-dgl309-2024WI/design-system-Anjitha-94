@@ -167,9 +167,12 @@
 .u-letter-spacing-2 {
   letter-spacing: 0.2em;
 }
-.u-text-accent{
+.u-text-accent-100{
   color:var(--clr-accent-100);
   }
+  .u-text-accent{
+    color:var(--clr-accent);
+    }
   .u-line-height{
     line-height: var(--line-height);
   }
@@ -640,7 +643,7 @@ color: #e60707;
 .carousel-items .carousel-item img {
   width: 100%; /* Frame width for the image */
   height: 800px; /* Frame height for the image */
-  object-fit: contain; /* Ensures full image is visible, may introduce blank space */
+  object-fit: cover; /* Ensures full image is visible, may introduce blank space */
 }
 
 .carousel-items .active {
@@ -649,15 +652,30 @@ color: #e60707;
 
 .description {
   position: absolute;
-  bottom: 0; /* Adjusted to sit at the bottom of the carousel */
-  right: 250px; /* Adjusted to align to the right within the carousel */
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  color: #fff;
- font-size: 0.8em; /* Adjust the font size as necessary */
+  top: 20%; /* Adjusted to sit at the bottom of the carousel */
+  left: 20px; /* Adjusted to align to the right within the carousel */
+  /*background-color: rgba(150, 141, 141, 0.5); /* Semi-transparent background */
+  font-size: 0.8em; /* Adjust the font size as necessary */
   border-radius: 0 0 0 5px; /* Rounded corner on the top-left only */
-  width:250px; 
+  width:50%; 
+  line-height: 2rem;
 }
+.btn-carousel {
+  background-color: #109210; /* Example button color */
+  color: white;
+  padding: 15px 30px; /* Larger padding for a bigger button */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem; /* Adjust font size for better readability on larger buttons */
+  text-decoration: none; /* Remove underline from links */
+}
+.btn-carousel:hover{
+  background-color: #15400da8;
 
+}
 /*card styles*/
 
 
@@ -698,7 +716,7 @@ color: #e60707;
   text-align: center;
 }
 .btn-card:hover{
-  background-color: #007bffa8;
+  background-color: #1500ffa8;
 
 }
 /*form*/
@@ -901,6 +919,29 @@ button[type="submit"]:hover {
         cursor: pointer;
         text-decoration: none;
       }
+
+
+      /*Carousel and pagination*/
+
+      .carousel-pagination {
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 5px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    
+    .dot_active, .dot:hover {
+        background-color: #717171;
+    }
       /*Accordian*/  
       
       .accordion-container {

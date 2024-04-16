@@ -24,6 +24,34 @@ function myFunction() {
     slides[slideIndex - 1].style.display = "block";
     setTimeout(showSlides, 3000); // Change image every 3 seconds
   }
+  function currentSlide(n) {
+    var i;
+    var slides = document.getElementsByClassName("carousel-item");
+    var dots = document.getElementsByClassName("dot");
+    
+    if (n > slides.length) { n = 1 }
+    if (n < 1) { n = slides.length }
+    
+    // Hide all slides
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+        slides[i].classList.remove('active');
+    }
+    
+    // Remove the active class from all dots
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    
+    // Show the current slide and set the dot as active
+    slides[n-1].style.display = "block";
+    slides[n-1].classList.add('active');
+    dots[n-1].className += " active";
+}
+
+// Initialize first slide
+currentSlide(1);
+
   
   //forms
   
