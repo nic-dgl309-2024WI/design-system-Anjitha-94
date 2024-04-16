@@ -514,6 +514,9 @@
 .l-justify-right{
   justify-content: flex-end;
 }
+.l-justify-round{
+  justify-content: space-around;
+}
 
 .l-align-items-center {
   align-items: center;
@@ -523,6 +526,9 @@
 }
 .l-align-items-right {
   align-items: right;
+}
+.l-align-items-stretch{
+  align-items: stretch;
 }
 /*grid*/
 .l-grid {
@@ -724,7 +730,6 @@ color: #e60707;
 /* Base styles for mobile and small screens */
 .form-container {
   max-width: 400px;
-  margin: 40px auto;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -760,8 +765,18 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #022141;
 }
+.image-container img{
+  width: 100%; /* Makes the image responsive */
+  height: auto; /* Keeps image aspect ratio */
+  display: block;
+  }
+  .image-container, .form-container {
+    width: 90%; /* Adjusts width to give some padding from the screen edge */
+    margin: 40px auto; /* Vertically spaces out and centers the containers */
+    box-sizing: border-box; /* Ensures padding and border are included in width/height */
+  }
 
 
 
@@ -848,7 +863,12 @@ button[type="submit"]:hover {
 .footer{
   display: none;
 }
-
+.large-screen {
+  display: none; /*  Ensure  large-screen class content on large screens */
+}
+.mobile {
+  display: block; /* Show mobile content is  on large screens */
+}
 
 
 
@@ -907,6 +927,29 @@ button[type="submit"]:hover {
         width: auto; /* Make the button smaller by adjusting its width */
         padding: 10px 50px; /* Adjust padding as needed for aesthetic purposes */
       }
+
+      .image-container img{
+        width: 100%; /* Makes the image responsive */
+        max-width: 400px; /* Maximum width of the image */
+        height: auto; /* Keeps image aspect ratio */
+        max-height: 100%; /* Ensures image does not exceed container height */
+        object-fit: cover; /* Covers the area of the container, may crop the image */
+      }
+
+      .image-container, .form-container {
+        flex: 1 1 50%; /* Allows each container to fill half the space */
+        max-width: 50%; /* Ensures that neither container exceeds half of the parent's width */
+        margin: 10px; /* Adjustable based on the desired spacing between containers */
+        box-sizing: border-box; /* Includes padding and border in width and height calculations */
+        display: flex; /* Enables flexbox properties within containers */
+        align-items: center; /* Centers content vertically */
+        justify-content: center; /* Centers content horizontally */
+      }
+    .form-container{
+      max-width: 400px;
+    }
+
+ 
       /*btn*/
       .btn {
         background-color: #007bff;
@@ -1001,6 +1044,12 @@ button[type="submit"]:hover {
       
       .footer-section a:hover {
         text-decoration: underline;
+      }
+      .large-screen {
+        display: block; /* Show large-screen class content on large screens */
+      }
+      .mobile {
+        display: none; /* Ensure mobile content is hidden on large screens */
       }
       
     }
