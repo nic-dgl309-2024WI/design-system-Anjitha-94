@@ -411,6 +411,9 @@
 .l-pb-2-50 {
   padding-bottom:2.50rem;
 }
+.l-pb-3-50 {
+  padding-bottom:3.50rem;
+}
 
 /*padding for right side*/
 .l-pr-1{
@@ -823,7 +826,7 @@ button[type="submit"]:hover {
 }
 
 .btn:hover {
-  background-color: #0056b3; /* Darker shade on hover for better interaction feedback */
+  background-color: #07315ec4; /* Darker shade on hover for better interaction feedback */
 }
 /*testimonials*/
 .testimonial-section h2 {
@@ -1014,7 +1017,7 @@ button[type="submit"]:hover {
         justify-content: space-between;
         align-items: center;
         padding: 20px;
-        background-color: #333;
+        background-color: #170a0a;
         color: white;
         flex-wrap: wrap; /* Ensures responsiveness */
       }
@@ -1051,7 +1054,12 @@ button[type="submit"]:hover {
       .mobile {
         display: none; /* Ensure mobile content is hidden on large screens */
       }
-      
+      .fab, .fas {
+        color: #64c0dcc5; /* Change the color */
+        font-size: 24px; /* Change the size of the icon */
+        padding: 10px; /* Add some space around the icon */
+      }
+  
     }
     
      
