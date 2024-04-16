@@ -135,7 +135,7 @@ color: #e60707;
   padding: 20px; /* Add padding around the code */
   overflow-x: auto; /* Make sure it scrolls horizontally if needed */
 }
-.copy-icon {
+.copy-button {
   position: absolute;
   right: 5px; /* Adjust based on preference */
   top: 5px; /* Adjust based on preference */
@@ -144,9 +144,17 @@ color: #e60707;
   color: #64748B; /* Icon color, adjust as needed */
 }
 /* Optional: Style for hover effect on the icon */
-.copy-icon:hover {
+.copy-button:hover {
   color: #2c5282; /* Darker shade when hovered */
 }
+.scrollable-container {
+  width: 100%;                /* Set the width to 100% of its parent or a fixed width as needed */
+  overflow-x: auto;           /* Enable horizontal scrolling */
+  white-space: nowrap;        /* Keep all the contents on the same line */
+  padding: 10px;              /* Optional: Add padding inside the container */
+  box-sizing: border-box;     /* Include padding in the width calculation */
+}
+
 
 /* Media query for larger screens (min-width: 769px) */
 @media screen and (min-width: 769px) {
