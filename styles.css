@@ -21,6 +21,10 @@
   /* Accent Colors */
   --clr-accent: #e44b09d7; 
   --clr-accent-100:#FF0000;
+  --color-blue-light:#007bff;
+--color-blue-dark:#1306a4a8;
+--color-green-light:#109210;
+--color-green-dark:#093102f7;
 
 
 
@@ -82,6 +86,20 @@
 .u-color-grey-light{
     background-color: var(--clr-gray-light);
    }
+   .u-color-blue-light{
+    background-color: var(--color-blue-light);
+   }
+   
+   .u-color-blue-dark{
+    background-color: var(--color-blue-dark);
+   }
+   .u-color-green-light{
+    background-color: var(--color-green-light);
+   }
+   .u-color-green-dark{
+    background-color: var(--color-green-dark);
+   }
+   
    /*Utility class text colors*/
 
 .u-color-primary-text001{
@@ -715,7 +733,7 @@ color: #e60707;
   margin-top: auto; /* Pushes the button to the bottom */
   width:200px; /* Optional: Adjust width as needed, accounting for padding/margins */
   margin: 10px; /* Adjust as necessary for spacing around the button */
-  background-color: #007bff;
+  background-color:var(--color-blue-light);
   color: white;
   padding: 10px 20px;
   border: none;
@@ -725,7 +743,7 @@ color: #e60707;
   text-align: center;
 }
 .btn-card:hover{
-  background-color: #1500ffa8;
+  background-color:var(--color-blue-dark);
 
 }
 /*form*/
@@ -759,7 +777,7 @@ color: #e60707;
 
 button[type="submit"] {
   width: 100%; /* Full width on smaller screens */
-  background-color: #007bff;
+  background-color:var(--color-blue-light);
   color: white;
   padding: 10px 20px;
   border: none;
@@ -768,7 +786,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #022141;
+  background-color:var(--color-blue-dark);
 }
 .image-container img{
   width: 100%; /* Makes the image responsive */
@@ -813,7 +831,7 @@ button[type="submit"]:hover {
 
 /* Base styles for buttons (larger on small screens) */
 .btn {
-  background-color: #007bff; /* Example button color */
+  background-color:var(--color-blue-light); /* Example button color */
   color: white;
   padding: 15px 30px; /* Larger padding for a bigger button */
   border: none;
@@ -826,7 +844,7 @@ button[type="submit"]:hover {
 }
 
 .btn:hover {
-  background-color: #07315ec4; /* Darker shade on hover for better interaction feedback */
+  background-color:var(--color-blue-dark); /* Darker shade on hover for better interaction feedback */
 }
 /*testimonials*/
 .testimonial-section h2 {
@@ -955,7 +973,7 @@ button[type="submit"]:hover {
  
       /*btn*/
       .btn {
-        background-color: #007bff;
+        background-color:var(--color-blue-light);
         color: white;
         position: absolute;
         right: 25%;
