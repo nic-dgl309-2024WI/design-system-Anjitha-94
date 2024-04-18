@@ -819,15 +819,36 @@ button[type="submit"]:hover {
   text-align: left;
   outline: none;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, font-weight 0.3s;
+  display: flex;
+  justify-content: space-between; /* Space between text and caret icon */
+  align-items: center;
+  background-color: #f9f9f9; /* Light grey background, darker when active */
+}
+
+/* Style for the caret icon */
+.accordion-header i {
+  transition: transform 0.3s ease;
+}
+
+/* Rotate caret icon when section is open */
+.accordion-header.active i {
+  transform: rotate(180deg);
 }
 
 .accordion-panel {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  transition: max-height 0.4s ease-out; /* Smooth transition for expanding and collapsing */
+  background-color: #f1f1f1; /* Light grey background for the panel */
   padding: 0 15px;
+}
+
+/* This is optional, to change the background color when the header is clicked */
+.accordion-header:hover,
+.accordion-header.active {
+  background-color: #ccc; /* Darker grey when active/hover */
+  font-weight: bold; /* Makes the font bold when active/hover */
 }
 
 

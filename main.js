@@ -62,7 +62,7 @@ currentSlide(1);
   });
   
   /*Accordian*/
-  
+  /*
   document.addEventListener('DOMContentLoaded', function () {
     var accordions = document.querySelectorAll('.accordion-header');
     accordions.forEach(function (accordion) {
@@ -76,4 +76,34 @@ currentSlide(1);
       });
     });
   });
-  
+  */
+
+ // Carots for accordian
+
+ document.addEventListener('DOMContentLoaded', function () {
+  var acc = document.querySelectorAll('.accordion-header');
+  acc.forEach(function (header) {
+      header.addEventListener('click', function () {
+          // Toggle active class for the header
+          this.classList.toggle('active');
+
+          // Toggle the panel
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+              panel.style.maxHeight = null; // Collapse the panel
+          } else {
+              panel.style.maxHeight = panel.scrollHeight + "px"; // Set max height
+          }
+
+          // Rotate the caret icon based on the state
+          var icon = this.querySelector('i');
+          if (icon.classList.contains('fa-caret-down')) {
+              icon.classList.remove('fa-caret-down');
+              icon.classList.add('fa-caret-up');
+          } else {
+              icon.classList.remove('fa-caret-up');
+              icon.classList.add('fa-caret-down');
+          }
+      });
+  });
+});
